@@ -1,12 +1,19 @@
 {
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
   ],
   "compilerOptions": {
-    "types": ["vitest/globals"],
+    "types": [
+      "vitest/globals"
+    ],
   },
- 
+  "resolveJsonModule": true,
+  "esModuleInterop": true,
   "noImplicitAny": false
 }

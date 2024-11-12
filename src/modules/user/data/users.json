@@ -1,9 +1,36 @@
-[
+{
+  "users": [
     {
-        "name": "Omodamola Oladeji",
-        "email": "darmhoo@hotmail.com",
-        "role": "user",
-        "status": "active",
-        "profile_photo": ""
+      "id": "4bc8",
+      "name": "Omodamola",
+      "email": "omodamolaoladeji@gmail.com",
+      "role": "user",
+      "status": "active",
+      "profile_photo": "https://res.cloudinary.com/ded69cslb/image/upload/v1731398225/new_smile_ejys4m.png"
+    },
+    {
+      "id": "22ed",
+      "name": "North Central",
+      "email": "tom@jdsk.com",
+      "role": "admin",
+      "status": "active",
+      "profile_photo": "https://res.cloudinary.com/ded69cslb/image/upload/v1731401584/new_smile_ly4tbw.png"
+    },
+    {
+      "name": "Tomiyasu",
+      "email": "darmhoo@hotmail.com",
+      "role": "admin",
+      "status": "active",
+      "profile_photo": "https://res.cloudinary.com/ded69cslb/image/upload/v1731401675/landing3_vfu1si.png",
+      "id": "7a5b"
+    },
+    {
+      "name": "Modupe Oluwa",
+      "email": "darmhoo@hotmail.comm",
+      "role": "guest",
+      "status": "active",
+      "profile_photo": "https://res.cloudinary.com/ded69cslb/image/upload/v1731408020/Screenshot_from_2024-10-30_11-47-08_kscvqd.png",
+      "id": "0719"
     }
-]
+  ]
+}

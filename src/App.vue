@@ -1,13 +1,21 @@
 <script setup lang="ts">
-import UsersPage from './modules/user/views/UsersPage.vue';
 
 </script>
 
 <template>
-  <div class="text-3xl text-blue-500">Welcome to Vue</div>
-  <UsersPage />
+
+  <Transition>
+    <div class="flex flex-col justify-center min-h-screen py-5 bg-slate-200">
+      <div class="flex gap-10 justify-center items-center">
+        <RouterLink active-class="active" exact-active-class="exact" class="p-2 rounded-lg" to="/">Home</RouterLink>
+        <RouterLink active-class="active" exact-active-class="exact" class="p-2 rounded-lg" to="/add-user">Add Users</RouterLink>        
+      </div>
+      <div>
+        <RouterView />
+      </div>
+    </div>
+
+  </Transition>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
